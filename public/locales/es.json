@@ -1,0 +1,1139 @@
+{
+  "0131d1a5f14e3639": "Distancia",
+  "0a27d75729d728bd": [
+    {
+      "c": "Posición",
+      "i": 1,
+      "t": "th"
+    },
+    {
+      "c": "Corredor",
+      "i": 2,
+      "t": "th"
+    },
+    {
+      "c": "Tiempo",
+      "i": 3,
+      "t": "th"
+    },
+    {
+      "c": "Ritmo",
+      "i": 4,
+      "t": "th"
+    },
+    {
+      "c": "Grupo de edad",
+      "i": 5,
+      "t": "th"
+    }
+  ],
+  "0bf5b989a08e1346": [
+    {
+      "c": "Carreras",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Explora carreras próximas y pasadas. Filtra por distancia, terreno y más.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "0eade0b57279fb4e": [
+    "Semana ",
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    }
+  ],
+  "0fdac67048e3831f": "Mejor Ritmo",
+  "142efc9241f017e5": {
+    "c": "Tu ritmo",
+    "i": 1,
+    "t": "p"
+  },
+  "14cd6f85bcc8f391": "Horas",
+  "206030193afb211c": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": {
+              "i": 4,
+              "k": "_gt_n_4",
+              "v": "n"
+            },
+            "i": 3,
+            "t": "p"
+          },
+          {
+            "c": {
+              "d": {
+                "b": {
+                  "many": {
+                    "c": "Miembros",
+                    "i": 7,
+                    "t": "C7"
+                  },
+                  "other": {
+                    "c": "Miembros",
+                    "i": 7,
+                    "t": "C7"
+                  },
+                  "plural": {
+                    "c": "Miembros",
+                    "i": 7,
+                    "t": "C7"
+                  },
+                  "singular": {
+                    "c": "Miembro",
+                    "i": 7,
+                    "t": "C7"
+                  }
+                },
+                "t": "p"
+              },
+              "i": 6,
+              "t": "Plural"
+            },
+            "i": 5,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 9,
+              "k": "_gt_n_9",
+              "v": "n"
+            },
+            "i": 8,
+            "t": "p"
+          },
+          {
+            "c": {
+              "d": {
+                "b": {
+                  "many": {
+                    "c": "Carreras",
+                    "i": 12,
+                    "t": "C12"
+                  },
+                  "other": {
+                    "c": "Carreras",
+                    "i": 12,
+                    "t": "C12"
+                  },
+                  "plural": {
+                    "c": "Carreras",
+                    "i": 12,
+                    "t": "C12"
+                  },
+                  "singular": {
+                    "c": "Carrera",
+                    "i": 12,
+                    "t": "C12"
+                  }
+                },
+                "t": "p"
+              },
+              "i": 11,
+              "t": "Plural"
+            },
+            "i": 10,
+            "t": "p"
+          }
+        ],
+        "i": 7,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 14,
+              "k": "_gt_n_14",
+              "v": "n"
+            },
+            "i": 13,
+            "t": "p"
+          },
+          {
+            "c": "km recorridos",
+            "i": 15,
+            "t": "p"
+          }
+        ],
+        "i": 12,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "4:22",
+            "i": 17,
+            "t": "p"
+          },
+          {
+            "c": "ritmo prom. /km",
+            "i": 18,
+            "t": "p"
+          }
+        ],
+        "i": 16,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "349ec26c17f36845": [
+    {
+      "c": [
+        {
+          "c": [
+            "#",
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            }
+          ],
+          "i": 2,
+          "t": "span"
+        },
+        {
+          "c": {
+            "i": 5,
+            "k": "_gt_value_5",
+            "v": "v"
+          },
+          "i": 4,
+          "t": "span"
+        }
+      ],
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": [
+        {
+          "c": [
+            "Tiempo: ",
+            {
+              "i": 8,
+              "k": "_gt_value_8",
+              "v": "v"
+            }
+          ],
+          "i": 7,
+          "t": "p"
+        },
+        {
+          "c": [
+            "Ritmo: ",
+            {
+              "i": 10,
+              "k": "_gt_value_10",
+              "v": "v"
+            },
+            " /km"
+          ],
+          "i": 9,
+          "t": "p"
+        },
+        {
+          "c": [
+            "Grupo de edad: ",
+            {
+              "i": 12,
+              "k": "_gt_value_12",
+              "v": "v"
+            }
+          ],
+          "i": 11,
+          "t": "p"
+        }
+      ],
+      "i": 6,
+      "t": "div"
+    }
+  ],
+  "3f5c2b399f8d3b78": "Tabla de clasificación",
+  "405eef3a312a7949": "← Volver a Razas",
+  "42fa40f8d2063ebc": "Carreras",
+  "4614a422f1430cd7": "Nombre",
+  "47e437c0e9ec1965": {
+    "d": {
+      "b": {
+        "cross-country": {
+          "c": "Cross Country",
+          "i": 2,
+          "t": "C2"
+        },
+        "road": {
+          "c": "Carretera",
+          "i": 2,
+          "t": "C2"
+        },
+        "track": {
+          "c": "Seguimiento",
+          "i": 2,
+          "t": "C2"
+        },
+        "trail": {
+          "c": "Trail",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "496f4b9a48eba645": "Completado",
+  "4b83ccfb01cc428e": {
+    "c": "por km",
+    "i": 1,
+    "t": "span"
+  },
+  "5132661cb9c397ba": {
+    "c": {
+      "d": {
+        "b": {
+          "many": {
+            "c": [
+              {
+                "i": 4,
+                "k": "_gt_n_4",
+                "v": "n"
+              },
+              " corredores"
+            ],
+            "i": 3,
+            "t": "C3"
+          },
+          "other": {
+            "c": [
+              {
+                "i": 4,
+                "k": "_gt_n_4",
+                "v": "n"
+              },
+              " corredores"
+            ],
+            "i": 3,
+            "t": "C3"
+          },
+          "plural": {
+            "c": [
+              {
+                "i": 4,
+                "k": "_gt_n_4",
+                "v": "n"
+              },
+              " corredores"
+            ],
+            "i": 3,
+            "t": "C3"
+          },
+          "singular": {
+            "c": [
+              {
+                "i": 4,
+                "k": "_gt_n_4",
+                "v": "n"
+              },
+              " corredor"
+            ],
+            "i": 3,
+            "t": "C3"
+          }
+        },
+        "t": "p"
+      },
+      "i": 2,
+      "t": "Plural"
+    },
+    "i": 1,
+    "t": "p"
+  },
+  "579e35d0bb5255e5": "Próximas",
+  "590f7a6e22086cec": "Club de corredores y rastreador de carreras con temporizador de cuenta regresiva, perfiles de elevación, planes de entrenamiento y tabla de clasificación.",
+  "5bfd7d19f19f294e": "Planes de entrenamiento",
+  "62d4724900e2d4fb": {
+    "c": [
+      {
+        "c": {
+          "i": 3,
+          "k": "_gt_value_3",
+          "v": "v"
+        },
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 6,
+              "k": "_gt_date_6",
+              "v": "d"
+            },
+            "i": 5,
+            "t": "span"
+          },
+          {
+            "c": {
+              "i": 8,
+              "k": "_gt_value_8",
+              "v": "v"
+            },
+            "i": 7,
+            "t": "span"
+          },
+          {
+            "c": {
+              "i": 10,
+              "k": "_gt_value_10",
+              "v": "v"
+            },
+            "i": 9,
+            "t": "span"
+          },
+          {
+            "c": {
+              "d": {
+                "b": {
+                  "cross-country": {
+                    "c": "Cross Country",
+                    "i": 13,
+                    "t": "C13"
+                  },
+                  "road": {
+                    "c": "Calle",
+                    "i": 13,
+                    "t": "C13"
+                  },
+                  "track": {
+                    "c": "Seguir",
+                    "i": 13,
+                    "t": "C13"
+                  },
+                  "trail": {
+                    "c": "Sendero",
+                    "i": 13,
+                    "t": "C13"
+                  }
+                },
+                "t": "b"
+              },
+              "i": 12,
+              "t": "Branch"
+            },
+            "i": 11,
+            "t": "span"
+          },
+          {
+            "c": {
+              "d": {
+                "b": {
+                  "completed": {
+                    "c": "Completado",
+                    "i": 15,
+                    "t": "C15"
+                  },
+                  "upcoming": {
+                    "c": "Próximo",
+                    "i": 15,
+                    "t": "C15"
+                  }
+                },
+                "t": "b"
+              },
+              "i": 14,
+              "t": "Branch"
+            },
+            "i": 13,
+            "t": "span"
+          }
+        ],
+        "i": 4,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "6624c5ce73d2272c": "Segundos",
+  "6ac27c646f8ed931": "Todas las distancias",
+  "6ed15e96e85bce5b": {
+    "c": [
+      {
+        "c": "Stride Club",
+        "i": 2,
+        "t": "h1"
+      },
+      {
+        "c": "Únete a nuestra comunidad de corredores. Entrena juntos, compite juntos, logra juntos.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "711b1b01c5510c20": {
+    "c": "Mapa del curso",
+    "i": 1,
+    "t": "h2"
+  },
+  "71f5d416b1c7eba5": "Ver todas las carreras",
+  "77bb2f59a47f53d0": {
+    "c": "Perfil de elevación",
+    "i": 1,
+    "t": "h2"
+  },
+  "80149974714870c6": {
+    "c": "Distancia (km)",
+    "i": 1,
+    "t": "label"
+  },
+  "909d75a87db4ea85": "Días",
+  "91259f8166119dc2": [
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        "km ",
+        {
+          "i": 4,
+          "k": "_gt_n_4",
+          "v": "n"
+        }
+      ],
+      "i": 3,
+      "t": "p"
+    }
+  ],
+  "92267e3641701d68": "Puntos",
+  "97a14f3a81ca8411": [
+    {
+      "c": "Resultados",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": {
+        "d": {
+          "b": {
+            "many": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " finalistas"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "other": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " finalistas"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "plural": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " finalistas"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "singular": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " participante que terminó"
+              ],
+              "i": 4,
+              "t": "C4"
+            }
+          },
+          "t": "p"
+        },
+        "i": 3,
+        "t": "Plural"
+      },
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "a65ad03dda72be9a": "Todos",
+  "a67f00234fb2b990": {
+    "c": "Tiempo",
+    "i": 1,
+    "t": "label"
+  },
+  "a7476472bdebf44b": "Minutos",
+  "a838d01563530120": [
+    {
+      "c": "Planes de entrenamiento",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Planes de entrenamiento estructurados para todos los niveles. Selecciona una semana para ver el horario diario.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "b188314d83b85569": {
+    "c": [
+      "Resultados recientes: ",
+      {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      }
+    ],
+    "i": 1,
+    "t": "h2"
+  },
+  "b83a0063a6cecdaf": "Rango",
+  "c54b30d21847bf02": {
+    "c": [
+      {
+        "c": [
+          "Ganancia de elevación: ",
+          {
+            "i": 3,
+            "k": "_gt_n_3",
+            "v": "n"
+          },
+          "m"
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": [
+          "Distancia: ",
+          {
+            "i": 5,
+            "k": "_gt_n_5",
+            "v": "n"
+          },
+          " km"
+        ],
+        "i": 4,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "c90a1596daba5f80": "Stride Club",
+  "ca0de1233f1c4c92": "Todo Terreno",
+  "cda9eb0b86807c1e": "Stride Club | Traducción general",
+  "cf128865e33e7a5a": [
+    {
+      "c": [
+        {
+          "c": {
+            "i": 3,
+            "k": "_gt_value_3",
+            "v": "v"
+          },
+          "i": 2,
+          "t": "h3"
+        },
+        {
+          "c": {
+            "i": 5,
+            "k": "_gt_value_5",
+            "v": "v"
+          },
+          "i": 4,
+          "t": "span"
+        }
+      ],
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": [
+        {
+          "c": {
+            "i": 8,
+            "k": "_gt_date_8",
+            "v": "d"
+          },
+          "i": 7,
+          "t": "p"
+        },
+        {
+          "c": {
+            "i": 10,
+            "k": "_gt_value_10",
+            "v": "v"
+          },
+          "i": 9,
+          "t": "p"
+        },
+        {
+          "c": [
+            {
+              "c": {
+                "d": {
+                  "b": {
+                    "cross-country": {
+                      "c": "Cross Country",
+                      "i": 14,
+                      "t": "C14"
+                    },
+                    "road": {
+                      "c": "Carretera",
+                      "i": 14,
+                      "t": "C14"
+                    },
+                    "track": {
+                      "c": "Ruta",
+                      "i": 14,
+                      "t": "C14"
+                    },
+                    "trail": {
+                      "c": "Sendero",
+                      "i": 14,
+                      "t": "C14"
+                    }
+                  },
+                  "t": "b"
+                },
+                "i": 13,
+                "t": "Branch"
+              },
+              "i": 12,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "i": 15,
+                  "k": "_gt_n_15",
+                  "v": "n"
+                },
+                "m de elevación"
+              ],
+              "i": 14,
+              "t": "span"
+            }
+          ],
+          "i": 11,
+          "t": "div"
+        }
+      ],
+      "i": 6,
+      "t": "div"
+    }
+  ],
+  "d0a356fb12e0d191": {
+    "c": {
+      "d": {
+        "b": {
+          "many": {
+            "c": [
+              {
+                "i": 4,
+                "k": "_gt_n_4",
+                "v": "n"
+              },
+              " carreras encontradas"
+            ],
+            "i": 3,
+            "t": "C3"
+          },
+          "other": {
+            "c": [
+              {
+                "i": 4,
+                "k": "_gt_n_4",
+                "v": "n"
+              },
+              " carreras encontradas"
+            ],
+            "i": 3,
+            "t": "C3"
+          },
+          "plural": {
+            "c": [
+              {
+                "i": 4,
+                "k": "_gt_n_4",
+                "v": "n"
+              },
+              " carreras encontradas"
+            ],
+            "i": 3,
+            "t": "C3"
+          },
+          "singular": {
+            "c": [
+              {
+                "i": 4,
+                "k": "_gt_n_4",
+                "v": "n"
+              },
+              " carrera encontrada"
+            ],
+            "i": 3,
+            "t": "C3"
+          }
+        },
+        "t": "p"
+      },
+      "i": 2,
+      "t": "Plural"
+    },
+    "i": 1,
+    "t": "p"
+  },
+  "dae8e52255ec54c4": {
+    "c": {
+      "d": {
+        "b": {
+          "easy": {
+            "c": "Carrera Fácil",
+            "i": 3,
+            "t": "C3"
+          },
+          "interval": {
+            "c": "Intervalos",
+            "i": 3,
+            "t": "C3"
+          },
+          "long": {
+            "c": "Long Run",
+            "i": 3,
+            "t": "C3"
+          },
+          "rest": {
+            "c": "Resto",
+            "i": 3,
+            "t": "C3"
+          },
+          "tempo": {
+            "c": "Tempo Run",
+            "i": 3,
+            "t": "C3"
+          }
+        },
+        "t": "b"
+      },
+      "i": 2,
+      "t": "Branch"
+    },
+    "i": 1,
+    "t": "span"
+  },
+  "db225e90752f57a6": {
+    "c": [
+      {
+        "c": "Próxima Carrera",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": {
+          "i": 4,
+          "k": "_gt_value_4",
+          "v": "v"
+        },
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": [
+          {
+            "i": 6,
+            "k": "_gt_date_6",
+            "v": "d"
+          },
+          " — ",
+          {
+            "i": 7,
+            "k": "_gt_value_7",
+            "v": "v"
+          }
+        ],
+        "i": 5,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "dba00d4f64cbb261": {
+    "c": {
+      "c": [
+        "Distancia total: ",
+        {
+          "c": [
+            {
+              "i": 4,
+              "k": "_gt_n_4",
+              "v": "n"
+            },
+            " km"
+          ],
+          "i": 3,
+          "t": "span"
+        }
+      ],
+      "i": 2,
+      "t": "p"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "dc95486481489368": {
+    "c": [
+      {
+        "c": "Esta es una aplicación de ejemplo creada con General Translation para demostrar la internacionalización. No es un servicio real.",
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": [
+          {
+            "c": "parkrun",
+            "i": 4,
+            "t": "a"
+          },
+          {
+            "c": "Strava",
+            "i": 5,
+            "t": "a"
+          },
+          {
+            "c": "World Athletics",
+            "i": 6,
+            "t": "a"
+          },
+          {
+            "c": "Runner's World",
+            "i": 7,
+            "t": "a"
+          }
+        ],
+        "i": 3,
+        "t": "div"
+      },
+      {
+        "c": [
+          "Creado con ",
+          {
+            "c": "General Translation",
+            "i": 9,
+            "t": "a"
+          }
+        ],
+        "i": 8,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "e12d95c0d01607f7": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": {
+              "d": {
+                "b": {
+                  "advanced": {
+                    "c": "Avanzado",
+                    "i": 5,
+                    "t": "C5"
+                  },
+                  "beginner": {
+                    "c": "Principiante",
+                    "i": 5,
+                    "t": "C5"
+                  },
+                  "intermediate": {
+                    "c": "Intermedio",
+                    "i": 5,
+                    "t": "C5"
+                  }
+                },
+                "t": "b"
+              },
+              "i": 4,
+              "t": "Branch"
+            },
+            "i": 3,
+            "t": "h2"
+          },
+          {
+            "c": {
+              "i": 6,
+              "k": "_gt_value_6",
+              "v": "v"
+            },
+            "i": 5,
+            "t": "span"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "advanced": {
+                "c": "Preparación de maratón de alto kilometraje para corredores competitivos.",
+                "i": 9,
+                "t": "C9"
+              },
+              "beginner": {
+                "c": "Ideal para corredores principiantes que se preparan para su primer 5K.",
+                "i": 9,
+                "t": "C9"
+              },
+              "intermediate": {
+                "c": "Para corredores experimentados que buscan un récord personal en media maratón.",
+                "i": 9,
+                "t": "C9"
+              }
+            },
+            "t": "b"
+          },
+          "i": 8,
+          "t": "Branch"
+        },
+        "i": 7,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "efefcf2e18a0dd37": [
+    {
+      "c": "Puestos de Ayuda",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": {
+        "d": {
+          "b": {
+            "many": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " puestos de avituallamiento en el recorrido"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "other": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " puestos de avituallamiento en el recorrido"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "plural": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " puestos de avituallamiento en el recorrido"
+              ],
+              "i": 4,
+              "t": "C4"
+            },
+            "singular": {
+              "c": [
+                {
+                  "i": 5,
+                  "k": "_gt_n_5",
+                  "v": "n"
+                },
+                " estación de ayuda en el recorrido"
+              ],
+              "i": 4,
+              "t": "C4"
+            }
+          },
+          "t": "p"
+        },
+        "i": 3,
+        "t": "Plural"
+      },
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "f5264257e232664f": [
+    {
+      "c": "Tabla de clasificación",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Rankings históricos de los miembros del Stride Club. Ordena por cualquier columna y filtra por categoría.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "fdbc4552df52fe29": {
+    "c": "Calculadora de ritmo",
+    "i": 1,
+    "t": "h3"
+  }
+}
