@@ -5,10 +5,6 @@ import ElevationChart from "@/components/ElevationChart";
 import CourseMap from "@/components/CourseMap";
 import Link from "next/link";
 
-export function generateStaticParams() {
-  return races.map((r) => ({ id: r.id }));
-}
-
 export default async function RaceDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const race = getRaceById(id);
