@@ -39,6 +39,7 @@
       "t": "p"
     }
   ],
+  "0c26fce8dc4990eb": "Agua",
   "0eade0b57279fb4e": [
     "Semana ",
     {
@@ -54,6 +55,7 @@
     "t": "p"
   },
   "14cd6f85bcc8f391": "Horas",
+  "1ca2facc399b6d4c": "Finalizar",
   "206030193afb211c": {
     "c": [
       {
@@ -298,11 +300,13 @@
     "t": "Branch"
   },
   "496f4b9a48eba645": "Completado",
+  "4af9bc677b9ebef3": "Fruta",
   "4b83ccfb01cc428e": {
     "c": "por km",
     "i": 1,
     "t": "span"
   },
+  "5087bc344fd6e40f": "Primeros auxilios",
   "5132661cb9c397ba": {
     "c": {
       "d": {
@@ -350,7 +354,7 @@
                 "k": "_gt_n_4",
                 "v": "n"
               },
-              " corredor"
+              " ejecutor"
             ],
             "i": 3,
             "t": "C3"
@@ -364,9 +368,54 @@
     "i": 1,
     "t": "p"
   },
-  "579e35d0bb5255e5": "Próximas",
-  "590f7a6e22086cec": "Club de corredores y rastreador de carreras con temporizador de cuenta regresiva, perfiles de elevación, planes de entrenamiento y tabla de clasificación.",
+  "53f47e9e74dbcc65": {
+    "d": {
+      "b": {
+        "Friday": {
+          "c": "Viernes",
+          "i": 2,
+          "t": "C2"
+        },
+        "Monday": {
+          "c": "Lunes",
+          "i": 2,
+          "t": "C2"
+        },
+        "Saturday": {
+          "c": "Sábado",
+          "i": 2,
+          "t": "C2"
+        },
+        "Sunday": {
+          "c": "Domingo",
+          "i": 2,
+          "t": "C2"
+        },
+        "Thursday": {
+          "c": "Jueves",
+          "i": 2,
+          "t": "C2"
+        },
+        "Tuesday": {
+          "c": "Martes",
+          "i": 2,
+          "t": "C2"
+        },
+        "Wednesday": {
+          "c": "Miércoles",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "579e35d0bb5255e5": "Próximo",
+  "590f7a6e22086cec": "Club de running y rastreador de carreras con temporizador de cuenta regresiva, perfiles de desnivel, planes de entrenamiento y clasificación.",
   "5bfd7d19f19f294e": "Planes de entrenamiento",
+  "5c5559fef9b67bb2": "Desnivel",
   "62d4724900e2d4fb": {
     "c": [
       {
@@ -422,12 +471,12 @@
                     "t": "C13"
                   },
                   "track": {
-                    "c": "Seguir",
+                    "c": "Rastrear",
                     "i": 13,
                     "t": "C13"
                   },
                   "trail": {
-                    "c": "Sendero",
+                    "c": "Trail",
                     "i": 13,
                     "t": "C13"
                   }
@@ -473,6 +522,7 @@
   },
   "6624c5ce73d2272c": "Segundos",
   "6ac27c646f8ed931": "Todas las distancias",
+  "6ac6684f04c23602": "Electrolitos",
   "6ed15e96e85bce5b": {
     "c": [
       {
@@ -547,7 +597,7 @@
                   "k": "_gt_n_5",
                   "v": "n"
                 },
-                " finalistas"
+                " finalizadores"
               ],
               "i": 4,
               "t": "C4"
@@ -559,7 +609,7 @@
                   "k": "_gt_n_5",
                   "v": "n"
                 },
-                " finalistas"
+                " finalizadores"
               ],
               "i": 4,
               "t": "C4"
@@ -571,7 +621,7 @@
                   "k": "_gt_n_5",
                   "v": "n"
                 },
-                " finalistas"
+                " finalizadores"
               ],
               "i": 4,
               "t": "C4"
@@ -583,7 +633,7 @@
                   "k": "_gt_n_5",
                   "v": "n"
                 },
-                " participante que terminó"
+                " finalista"
               ],
               "i": 4,
               "t": "C4"
@@ -617,6 +667,7 @@
       "t": "p"
     }
   ],
+  "abc72d7598386cac": "Geles",
   "b188314d83b85569": {
     "c": [
       "Resultados recientes: ",
@@ -630,6 +681,9 @@
     "t": "h2"
   },
   "b83a0063a6cecdaf": "Rango",
+  "babcca8410c8e4a3": "km",
+  "bcc9a4b1c42d2680": "Iniciar",
+  "c3170955abd1c05f": "/km",
   "c54b30d21847bf02": {
     "c": [
       {
@@ -1104,7 +1158,7 @@
                   "k": "_gt_n_5",
                   "v": "n"
                 },
-                " estación de ayuda en el recorrido"
+                " puesto de ayuda en el recorrido"
               ],
               "i": 4,
               "t": "C4"

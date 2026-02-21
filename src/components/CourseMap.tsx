@@ -1,4 +1,9 @@
+"use client";
+
+import { useGT } from "gt-next/client";
+
 export default function CourseMap({ terrain }: { terrain: string }) {
+  const gt = useGT();
   const isTrail = terrain === "trail" || terrain === "cross-country";
 
   return (
@@ -25,8 +30,8 @@ export default function CourseMap({ terrain }: { terrain: string }) {
           <path d="M 60 100 L 60 60 Q 60 40 80 40 L 320 40 Q 340 40 340 60 L 340 100" stroke="#065F46" strokeWidth="1.5" strokeDasharray="4 4" opacity="0.4" />
         </>
       )}
-      <text x="40" y="185" fill="#9CA3AF" fontSize="10">Start</text>
-      <text x="340" y="185" fill="#9CA3AF" fontSize="10">Finish</text>
+      <text x="40" y="185" fill="#9CA3AF" fontSize="10">{gt("Start")}</text>
+      <text x="340" y="185" fill="#9CA3AF" fontSize="10">{gt("Finish")}</text>
     </svg>
   );
 }

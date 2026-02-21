@@ -1,12 +1,14 @@
 "use client";
 
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import { useGT } from "gt-next/client";
 
 interface Props {
   data: { distance: number; elevation: number }[];
 }
 
 export default function ElevationChart({ data }: Props) {
+  const gt = useGT();
   return (
     <div className="w-full h-64">
       <ResponsiveContainer width="100%" height="100%">
@@ -22,7 +24,7 @@ export default function ElevationChart({ data }: Props) {
           <Tooltip
             contentStyle={{ backgroundColor: "#1F2937", border: "1px solid #374151", borderRadius: "8px", color: "#E5E7EB" }}
             labelFormatter={(v) => `${v} km`}
-            formatter={(v) => [`${v} m`, "Elevation"]}
+            formatter={(v) => [`${v} m`, gt("Elevation")]}
           />
           <Area type="monotone" dataKey="elevation" stroke="#065F46" fill="url(#elevGradient)" strokeWidth={2} />
         </AreaChart>

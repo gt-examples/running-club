@@ -2,11 +2,13 @@
 
 import { useState } from "react";
 import { T, Num, Plural } from "gt-next";
+import { useGT } from "gt-next/client";
 import { leaderboard, type LeaderboardEntry } from "@/data/leaderboard";
 
 type SortKey = "rank" | "totalRaces" | "totalDistance" | "points";
 
 export default function LeaderboardTable() {
+  const gt = useGT();
   const [sortKey, setSortKey] = useState<SortKey>("rank");
   const [sortAsc, setSortAsc] = useState(true);
   const [filter, setFilter] = useState<string>("all");
@@ -82,8 +84,8 @@ export default function LeaderboardTable() {
                 <td className="px-4 py-3 text-sm text-gray-300"><Num>{entry.rank}</Num></td>
                 <td className="px-4 py-3 text-sm text-white font-medium">{entry.name}</td>
                 <td className="px-4 py-3 text-sm text-gray-300"><Num>{entry.totalRaces}</Num></td>
-                <td className="px-4 py-3 text-sm text-gray-300"><Num>{entry.totalDistance}</Num> km</td>
-                <td className="px-4 py-3 text-sm text-gray-300">{entry.bestPace} /km</td>
+                <td className="px-4 py-3 text-sm text-gray-300"><Num>{entry.totalDistance}</Num> {gt("km")}</td>
+                <td className="px-4 py-3 text-sm text-gray-300">{entry.bestPace} {gt("/km")}</td>
                 <td className="px-4 py-3 text-sm text-[#ECFDF5] font-medium"><Num>{entry.points}</Num></td>
               </tr>
             ))}

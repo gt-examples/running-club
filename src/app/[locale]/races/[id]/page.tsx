@@ -1,4 +1,5 @@
 import { T, Var, Num, DateTime, Plural, Branch } from "gt-next";
+import { getGT } from "gt-next/server";
 import { races, getRaceById } from "@/data/races";
 import { notFound } from "next/navigation";
 import ElevationChart from "@/components/ElevationChart";
@@ -9,6 +10,7 @@ export default async function RaceDetailPage({ params }: { params: Promise<{ id:
   const { id } = await params;
   const race = getRaceById(id);
   if (!race) return notFound();
+  const gt = await getGT();
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
@@ -79,7 +81,9 @@ export default async function RaceDetailPage({ params }: { params: Promise<{ id:
               </T>
               <div className="flex flex-wrap gap-1">
                 {station.supplies.map((s) => (
-                  <span key={s} className="text-xs bg-[#065F46]/20 text-[#ECFDF5] px-2 py-0.5 rounded">{s}</span>
+                  <span key={s} className="text-xs bg-[#065F46]/20 text-[#ECFDF5] px-2 py-0.5 rounded">
+                    {s === "Water" ? gt("Water") : s === "Electrolytes" ? gt("Electrolytes") : s === "Gels" ? gt("Gels") : s === "Fruit" ? gt("Fruit") : s === "First Aid" ? gt("First Aid") : s}
+                  </span>
                 ))}
               </div>
             </div>
@@ -117,7 +121,7 @@ export default async function RaceDetailPage({ params }: { params: Promise<{ id:
                     <td className="px-4 py-3 text-sm text-[#ECFDF5] font-medium"><Num>{r.rank}</Num></td>
                     <td className="px-4 py-3 text-sm text-white">{r.runnerName}</td>
                     <td className="px-4 py-3 text-sm text-gray-300">{r.finishTime}</td>
-                    <td className="px-4 py-3 text-sm text-gray-300">{r.pace} /km</td>
+                    <td className="px-4 py-3 text-sm text-gray-300">{r.pace} {gt("/km")}</td>
                     <td className="px-4 py-3 text-sm text-gray-300">{r.ageGroup}</td>
                   </tr>
                 ))}

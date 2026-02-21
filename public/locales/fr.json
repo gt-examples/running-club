@@ -39,6 +39,7 @@
       "t": "p"
     }
   ],
+  "0c26fce8dc4990eb": "Eau",
   "0eade0b57279fb4e": [
     "Semaine ",
     {
@@ -47,13 +48,14 @@
       "v": "n"
     }
   ],
-  "0fdac67048e3831f": "Meilleure Allure",
+  "0fdac67048e3831f": "Meilleure Cadence",
   "142efc9241f017e5": {
     "c": "Votre rythme",
     "i": 1,
     "t": "p"
   },
   "14cd6f85bcc8f391": "Heures",
+  "1ca2facc399b6d4c": "Terminer",
   "206030193afb211c": {
     "c": [
       {
@@ -298,11 +300,13 @@
     "t": "Branch"
   },
   "496f4b9a48eba645": "Terminé",
+  "4af9bc677b9ebef3": "Fruits",
   "4b83ccfb01cc428e": {
     "c": "par km",
     "i": 1,
     "t": "span"
   },
+  "5087bc344fd6e40f": "Premiers secours",
   "5132661cb9c397ba": {
     "c": {
       "d": {
@@ -314,7 +318,7 @@
                 "k": "_gt_n_4",
                 "v": "n"
               },
-              " coureurs"
+              " runners"
             ],
             "i": 3,
             "t": "C3"
@@ -326,7 +330,7 @@
                 "k": "_gt_n_4",
                 "v": "n"
               },
-              " coureurs"
+              " runners"
             ],
             "i": 3,
             "t": "C3"
@@ -338,7 +342,7 @@
                 "k": "_gt_n_4",
                 "v": "n"
               },
-              " coureurs"
+              " runners"
             ],
             "i": 3,
             "t": "C3"
@@ -350,7 +354,7 @@
                 "k": "_gt_n_4",
                 "v": "n"
               },
-              " coureur"
+              " runner"
             ],
             "i": 3,
             "t": "C3"
@@ -364,9 +368,54 @@
     "i": 1,
     "t": "p"
   },
+  "53f47e9e74dbcc65": {
+    "d": {
+      "b": {
+        "Friday": {
+          "c": "Vendredi",
+          "i": 2,
+          "t": "C2"
+        },
+        "Monday": {
+          "c": "Lundi",
+          "i": 2,
+          "t": "C2"
+        },
+        "Saturday": {
+          "c": "Samedi",
+          "i": 2,
+          "t": "C2"
+        },
+        "Sunday": {
+          "c": "Dimanche",
+          "i": 2,
+          "t": "C2"
+        },
+        "Thursday": {
+          "c": "Jeudi",
+          "i": 2,
+          "t": "C2"
+        },
+        "Tuesday": {
+          "c": "Mardi",
+          "i": 2,
+          "t": "C2"
+        },
+        "Wednesday": {
+          "c": "Mercredi",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
   "579e35d0bb5255e5": "À venir",
-  "590f7a6e22086cec": "Club de course à pied et outil de suivi des courses avec minuteur à compte à rebours, profils d’élévation, plans d’entraînement et classements.",
+  "590f7a6e22086cec": "Club de course à pied et outil de suivi des courses avec compte à rebours, profils de dénivelé, plans d’entraînement et classements.",
   "5bfd7d19f19f294e": "Plans d'entraînement",
+  "5c5559fef9b67bb2": "Dénivelé",
   "62d4724900e2d4fb": {
     "c": [
       {
@@ -473,6 +522,7 @@
   },
   "6624c5ce73d2272c": "Secondes",
   "6ac27c646f8ed931": "Toutes les distances",
+  "6ac6684f04c23602": "Électrolytes",
   "6ed15e96e85bce5b": {
     "c": [
       {
@@ -583,7 +633,7 @@
                   "k": "_gt_n_5",
                   "v": "n"
                 },
-                " finissant"
+                " finisseur"
               ],
               "i": 4,
               "t": "C4"
@@ -617,6 +667,7 @@
       "t": "p"
     }
   ],
+  "abc72d7598386cac": "Gels",
   "b188314d83b85569": {
     "c": [
       "Résultats récents : ",
@@ -630,6 +681,9 @@
     "t": "h2"
   },
   "b83a0063a6cecdaf": "Rang",
+  "babcca8410c8e4a3": "km",
+  "bcc9a4b1c42d2680": "Démarrer",
+  "c3170955abd1c05f": "/km",
   "c54b30d21847bf02": {
     "c": [
       {
@@ -663,7 +717,7 @@
     "t": "div"
   },
   "c90a1596daba5f80": "Stride Club",
-  "ca0de1233f1c4c92": "Tout terrain",
+  "ca0de1233f1c4c92": "Tout-terrain",
   "cda9eb0b86807c1e": "Stride Club | Traduction générale",
   "cf128865e33e7a5a": [
     {
@@ -727,7 +781,7 @@
                       "t": "C14"
                     },
                     "track": {
-                      "c": "Suivre",
+                      "c": "Piste",
                       "i": 14,
                       "t": "C14"
                     },
@@ -847,7 +901,7 @@
             "t": "C3"
           },
           "rest": {
-            "c": "Repos",
+            "c": "Autres",
             "i": 3,
             "t": "C3"
           },
@@ -928,7 +982,7 @@
   "dc95486481489368": {
     "c": [
       {
-        "c": "Ceci est un exemple d'application développée avec General Translation pour illustrer l'internationalisation. Il ne s'agit pas d'un service réel.",
+        "c": "Il s'agit d'un exemple d'application construite avec General Translation pour illustrer l'internationalisation. Ce n'est pas un vrai service.",
         "i": 2,
         "t": "p"
       },
@@ -960,7 +1014,7 @@
       },
       {
         "c": [
-          "Développé avec ",
+          "Construit avec ",
           {
             "c": "General Translation",
             "i": 9,

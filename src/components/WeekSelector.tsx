@@ -49,7 +49,20 @@ export default function WeekSelector({ plan }: { plan: TrainingPlan }) {
             className={`flex items-center justify-between rounded-lg border px-4 py-3 ${typeColors[day.type]}`}
           >
             <div className="flex items-center gap-2">
-              <span className="font-medium"><Var>{day.day}</Var></span>
+              <span className="font-medium">
+                <T>
+                  <Branch
+                    branch={day.day}
+                    Monday={<>Monday</>}
+                    Tuesday={<>Tuesday</>}
+                    Wednesday={<>Wednesday</>}
+                    Thursday={<>Thursday</>}
+                    Friday={<>Friday</>}
+                    Saturday={<>Saturday</>}
+                    Sunday={<>Sunday</>}
+                  />
+                </T>
+              </span>
               <T>
                 <span className="text-sm opacity-75">
                   <Branch branch={day.type}

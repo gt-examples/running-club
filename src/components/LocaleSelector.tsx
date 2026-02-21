@@ -4,10 +4,10 @@ import { useLocale, useSetLocale } from "gt-next/client";
 
 const locales = [
   { code: "en", label: "English" },
-  { code: "es", label: "Espanol" },
-  { code: "fr", label: "Francais" },
-  { code: "ja", label: "Japanese" },
-  { code: "zh", label: "Chinese" },
+  { code: "es", label: "Español" },
+  { code: "fr", label: "Français" },
+  { code: "ja", label: "日本語" },
+  { code: "zh", label: "中文" },
 ];
 
 export default function LocaleSelector() {
